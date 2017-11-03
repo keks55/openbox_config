@@ -1,0 +1,6 @@
+# When rebooting, restore the image to the desktop background
+eval `cat $HOME/.fehbg` &
+tint2 &
+doublecmd &
+sublime &
+firefox &
