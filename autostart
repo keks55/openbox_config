@@ -2,5 +2,7 @@
 eval `cat $HOME/.fehbg` &
 tint2 &
 doublecmd &
-sublime &
+subl &
 firefox &
+x-terminal-emulator &
+deadbeef &
