@@ -192,12 +192,97 @@
     <keybind key="A-F3">
       <action name="Close"/>
     </keybind>
-    <keybind key="A-F5">
-      <action name="MoveResizeTo"><width>960</width></action>
+
+    <!-- WWWindow resize -->
+      <keybind key="W-1">             # 50% left
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <height>100%</height>
+        <width>50%</width>
+      </action>
     </keybind>
-    <keybind key="A-F8">
-      <action name="Execute">
-        <execute>alsamixer</execute>
+    <keybind key="W-e">             # 60% left
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <height>100%</height>
+        <width>60%</width>
+      </action>
+    </keybind>
+    <keybind key="W-q">             # 40% left
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <height>100%</height>
+        <width>40%</width>
+      </action>
+    </keybind>
+    <keybind key="W-2">                # 50% right
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>0</y>
+        <height>100%</height>
+        <width>50%</width>
+      </action>
+    </keybind>
+    <keybind key="W-w">                # 60% right
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>0</y>
+        <height>100%</height>
+        <width>60%</width>
+      </action>
+    </keybind>
+     <keybind key="W-r">                # 40% right
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>0</y>
+        <height>100%</height>
+        <width>40%</width>
+      </action>
+    </keybind>
+    <keybind key="W-Up">               # 50% top
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width>100%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-Down">              # 50% down
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>-0</y>
+        <width>100%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+
+    <keybind key="W-3">                 # 25% right top
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-4">                 # 25% right down
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>-0</y>
+        <width>50%</width>
+        <height>50%</height>
       </action>
     </keybind>
 
@@ -278,15 +363,6 @@
     </keybind>
 
     <!-- Keybindings for running applications -->
-    <keybind key="W-e">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>Konqueror</name>
-        </startupnotify>
-        <command>kfmclient openProfile filemanagement</command>
-      </action>
-    </keybind>
 
     <!-- Launch scrot when Print is pressed -->
     <keybind key="Print">

@@ -6,11 +6,18 @@
         <execute>x-terminal-emulator</execute>
       </action>
     </item>
+    <separator/>
     <item label="Firefox">
       <action name="Execute">
         <execute>firefox</execute>
       </action>
     </item>
+    <item label="Chrome">
+      <action name="Execute">
+        <execute>google-chrome --no-sandbox --user-data-dir</execute>
+      </action>
+    </item>
+    <separator/>
      <item label="Commander">
       <action name="Execute">
         <execute>doublecmd</execute>
@@ -21,6 +28,7 @@
         <execute>filezilla</execute>
       </action>
     </item>
+    <separator/>
     <item label="Calculator">
       <action name="Execute">
         <execute>galculator</execute>
