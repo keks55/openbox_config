@@ -286,7 +286,32 @@
       </action>
     </keybind>
 
+    <keybind key="W-a">                 # 25% right top 60
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>0</y>
+        <width>60%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-s">                 # 25% right down 60
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>-0</y>
+        <width>60%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+
     <!-- Keybindings for desktop switching -->
+
+     <keybind key="W-Left">
+      <action name="Execute">
+        <command>pm-suspend</command>
+      </action>
+    </keybind>
     
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
