@@ -7,6 +7,12 @@
       </action>
     </item>
     <separator/>
+    <item label="Netbeans">
+      <action name="Execute">
+        <execute>/bin/sh "/usr/local/netbeans-8.2/bin/netbeans"</execute>
+      </action>
+    </item>
+    <separator/>
     <item label="Firefox">
       <action name="Execute">
         <execute>firefox</execute>
@@ -36,7 +42,7 @@
     </item>
      <item label="MusicPlayer">
       <action name="Execute">
-        <execute>deadbeef</execute>
+        <execute>/opt/deadbeef/bin/deadbeef</execute>
       </action>
     </item>
     <item label="Sublime">
@@ -47,7 +53,7 @@
      <separator/>
      <item label="Openbox config">
       <action name="Execute">
-        <execute>subl</execute>
+        <execute>~/.config/openbox/menu.xml</execute>
       </action>
     </item>
     <separator/>

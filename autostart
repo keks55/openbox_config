@@ -6,3 +6,6 @@ subl &
 firefox &
 x-terminal-emulator &
 deadbeef &
+# display screensaver off
+xset s off
+xset -dpms

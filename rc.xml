@@ -305,6 +305,18 @@
       </action>
     </keybind>
 
+    <!-- sound volume -->
+    <keybind key="C-Up">
+     <action name="Execute">
+       <command>amixer set Master 5%+</command>
+     </action>
+   </keybind>
+   <keybind key="C-Down">
+     <action name="Execute">
+       <command>amixer set Master 5%-</command>
+     </action>
+   </keybind>
+
     <!-- Keybindings for desktop switching -->
 
      <keybind key="W-Left">
